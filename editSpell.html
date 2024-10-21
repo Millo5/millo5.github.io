@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js/pages/edit_spell.js"></script>
+    
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Back</a>
+    </nav>
+
+    <!-- spell id, components, architecture -->
+    <!-- Load the available components and architectures from js -->
+    
+    <main>
+
+        <div class="addSpell">
+            <label for="spell-id">Spell ID:
+                <input type="text" id="spell-id" placeholder="Spell ID">            
+            </label>
+
+            <label for="components">
+                <div class="smol">
+                    <p>Components:</p>
+                    <input type="text" id="component-search" placeholder="Search...">
+                </div>
+                <div class="multiple" id="components">
+                </div>
+            </label>
+
+            <label for="architecture">Architecture:
+                <div class="multiple" id="architecture">
+                </div>
+            </label>
+
+            <label for="categories">Categories:
+                <div class="multiple" id="categories">
+                </div>
+            </label>
+
+            <button id="check-spell">Check Spell</button>
+        </div>
+        <div class="addSpell" id="spell-details">
+
+        </div>
+
+    </main>
+
+
+</body>
+</html>

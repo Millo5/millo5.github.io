@@ -83,14 +83,14 @@ const main = async () => {
     filterButton.addEventListener("click", () => {
         // I want toggling to slide it up and down
         if (filterOptions.style.top === "70px") {
-            filterOptions.style.top = "-200px";
+            filterOptions.style.top = "-300px";
         } else {
             filterOptions.style.top = "70px";
         }
     });
 
     window.addEventListener("scroll", () => {
-        filterOptions.style.top = "-200px";
+        filterOptions.style.top = "-300px";
     });
 
     const filterCategories = document.getElementById("filter-categories");

@@ -220,7 +220,7 @@ button:disabled {
 
     transition: all 0.3s;
 
-    top: -100px;
+    top: -200px;
     position: fixed;
 }
 
